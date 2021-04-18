@@ -10,8 +10,7 @@ const TopNav = () => (
         <nav className='options'>
                 <Link className='option' to='/'>home |</Link>
                 <Link className='option' to='/portfolio'> portfolio |</Link>
-                <Link className='option' to='/about'> about us |</Link>
-                <Link className='option' to='/faq'> faq |</Link>
+                <Link className='option' to='/aboutus'> about us |</Link>
                 <Link className='option' to='/contact'> contact</Link>
         </nav>
     </div>

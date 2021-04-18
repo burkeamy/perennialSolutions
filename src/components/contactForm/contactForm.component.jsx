@@ -1,40 +1,34 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
-
-const ContactForm = (changeMessage) => {
+const ContactForm = () => {
 
    
 
-    const onSubmit = data => {
-        console.log(data);
-        changeMessage();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+
+        emailjs.sendForm('service_os18hzg', 'template_hulbr91', e.target, 'user_SVeso4VCm5a8LFlI5j2Tf')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
     }
 
     return (
-        <form onSubmit={onSubmit}>  
-            <input
-                type='text'
-                name='name'
-                placeholder='Name'
-                
-            />
-            <input 
-                type='email' 
-                name='email' 
-                placeholder='email'
-            />
-            <div>
-                <input type="checkbox" id="option1" name="option1" value="newWebsite"/>
-                <label for="option1"> I need a website</label>
-                <input type="checkbox" id="option2" name="option2" value="siteRedesign"/>
-                <label for="option2"> I want to redesign a website</label>
-                <input type="checkbox" id="option3" name="option3" value="option3"/>
-                <label for="option3"> other</label>
-            </div>
-
-            <input type='text' name='message' placeholder='addtional information'/>
-            <button type='submit'>submint</button>
-        </form> 
+            <form className="contact-form" onSubmit={sendEmail}>
+              <input type="hidden" name="contact_number" />
+              <label>Name</label>
+              <input type="text" name="user_name" />
+              <label>Email</label>
+              <input type="email" name="user_email" />
+              <label>Message</label>
+              <textarea name="message" />
+              <input type="submit" value="Send" />
+            </form>
+        
     )
 };
 

@@ -1,3 +1,10 @@
 footer {
-    background-color: #D3C0D2
+    background-color: #D3C0D2;
+    padding: 2em;
+}
+
+.footerOption {
+    color: black;
+    text-align:right;
+    text-decoration: none;
 }

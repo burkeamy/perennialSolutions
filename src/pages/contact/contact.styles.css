@@ -1,0 +1,14 @@
+.contactFormContainer {
+    background-color: white;
+    width: 80%;
+    border: #D3C0D2 solid 1px;
+    z-index: 2;
+}
+
+.contactBackground {
+    background-image: url('../../images/fallMums.png');
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    opacity: .8;
+    width: 100%;
+}

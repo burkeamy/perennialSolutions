@@ -1,0 +1,30 @@
+.homepage {
+    height: 100%;
+  }
+
+  .homepageContainer {
+      padding: 5%;
+  }
+
+  h2 {
+    font-size:36px
+  }
+
+h3 {
+    text-align: center;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: left center right;
+    justify-content: space-evenly;
+    grid-gap: 5%;
+    width: 80%;;
+}
+
+.left-item, .right-item{
+    background-color:lightgray;
+    padding: 1em;
+    margin-top: -.5em;
+}

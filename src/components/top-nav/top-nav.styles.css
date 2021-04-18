@@ -1,4 +1,36 @@
 .top-nav {
     background-color: #5B7553;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
     color: #E4FDE1;
+    margin: -1%;
+    padding: 3%;
+}
+
+.logoImg {
+    
+    height: 100px;
+    border-radius: 50%;
+}
+
+.logoImg:hover {
+    height: 110px
+}
+
+h1 {
+    font-family: 'Purple Purse', cursive;
+    letter-spacing: 2px;
+    font-size: 60px;
+    color: #E4FDE1
+}
+
+.option {
+    text-decoration: none;
+    color: #E4FDE1;
+}
+
+.option:hover {
+    color: #D3C0D2;
+    font-size: 30px;
 }

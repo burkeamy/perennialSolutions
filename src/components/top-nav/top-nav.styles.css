@@ -6,6 +6,7 @@
     color: #E4FDE1;
     margin: -1%;
     padding: 3%;
+    z-index: 2;
 }
 
 .logoImg {
@@ -28,9 +29,28 @@ h1 {
 .option {
     text-decoration: none;
     color: #E4FDE1;
+    justify-content: end;
 }
 
 .option:hover {
     color: #D3C0D2;
     font-size: 30px;
+}
+
+@media screen and (max-width: 1673px){
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1415px){
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1157px){
+    h1 {
+        font-size: 30px;
+    }
 }

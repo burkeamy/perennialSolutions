@@ -25,11 +25,11 @@ const HomePage = () => (
                     </section>
                     <section className='center-item'>
                         <h4>Website Re-Design</h4>
-                        <p>For those that have a website, but it needs to be updated</p>
+                        <p>For those that have a website, but it needs to be updated or improved</p>
                     </section>
                     <section className='right-item'>
                         <h4>Responsive web-design</h4>
-                        <p>We will take an existing site and make it look better on your phone</p>
+                        <p>We will take an existing website and make it more responsive to screen size</p>
                     </section>
                     <section className='left-item'>
                         <h4>Branding</h4>
@@ -37,11 +37,11 @@ const HomePage = () => (
                     </section>
                     <section className='center-item'>
                         <h4>Logo Design</h4>
-                        <p>just a logo in what ever file format you need</p>
+                        <p>Just a logo in what ever file format you need</p>
                     </section>
                     <section className='right-item'>
                         <h4>Social Media</h4>
-                        <p>need help with twitter, facebook, or instagram? we can do that</p>
+                        <p>Need help with twitter, facebook, or instagram? We can do that</p>
                     </section>
                 </div>
         </article>

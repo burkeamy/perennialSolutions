@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => (
     <footer>
-        <p></p>
-        <div>
-            <Link className='footerOption' to='/'>home |</Link>
-            <Link className='footerOption' to='/portfolio'> portfolio |</Link>
-            <Link className='footerOption' to='/about'> about us |</Link>
-            <Link className='footerOption' to='/contact'> contact</Link>
+        <p>	&#169; 2021 Perenial Solutions Online</p>
+        <div className='footer-menu'>
+            <Link className='footer-option' to='/'>home |</Link>
+            <Link className='footer-option' to='/portfolio'> portfolio |</Link>
+            <Link className='footer-option' to='/aboutus'> about us |</Link>
+            <Link className='footer-option' to='/contact'> contact</Link>
         </div>
     </footer>
 );

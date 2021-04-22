@@ -14,11 +14,11 @@ const ContactPage = () => {
         <div>
             <div className='contactBackground'></div>
             <section className='contactFormContainer'>
-            <h2>Contact Perennial Solutions</h2>
-            {!isSubmitted ? 
-                < ContactForm onSubmit={changeMessage}/> :
-                < ThankYou/>
-            }
+                <h2>Contact Perennial Solutions</h2>
+                {!isSubmitted ? 
+                    < ContactForm onSubmit={changeMessage}/> :
+                    < ThankYou/>
+                }
             </section>
         </div>
     )

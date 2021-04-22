@@ -7,7 +7,7 @@
     width: 100%;
   
     /* Full height */
-    height: 200px; 
+    height: 250px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -34,10 +34,12 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 1;
     width: 80%;
     padding: 20px;
     text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .contactButton {
@@ -49,4 +51,11 @@
     background-color: #5B7553;
     color: #E4FDE1;
     font-size: 1em;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 1074px){
+   .bigText {
+       margin-top: 4%
+;   }
 }

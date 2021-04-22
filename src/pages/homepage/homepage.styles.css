@@ -20,11 +20,22 @@ h3 {
     grid-template-areas: left center right;
     justify-content: space-evenly;
     grid-gap: 5%;
-    width: 80%;;
+    width: 80%;
 }
 
 .left-item, .right-item{
     background-color:lightgray;
     padding: 1em;
     margin-top: -.5em;
+    margin-bottom: -.5em;
+}
+
+@media screen and (max-width: 700px){
+   .services-container {
+       display: block;
+   }
+
+   .left-item {
+       background-color: #D3C0D2;
+   }
 }

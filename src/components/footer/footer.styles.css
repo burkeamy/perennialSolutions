@@ -1,14 +1,20 @@
 footer {
     background-color: #D3C0D2;
     padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.footerOption {
+.footer-menu {
+    justify-content: flex-end;
+}
+
+.footer-optionn {
     color: black;
     text-align:right;
     text-decoration: none;
 }
 
-.footerOption:hover {
+.footer-option:hover {
     font-size: 2rem;
 }

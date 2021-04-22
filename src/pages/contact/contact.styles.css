@@ -1,8 +1,13 @@
 .contactFormContainer {
-    background-color: white;
     width: 80%;
-    border: #D3C0D2 solid 1px;
+    border: #D3C0D2 solid 3px;
+    border-radius: 2%;
     z-index: 2;
+    margin-top: 15%;
+    text-align: center;
+    margin:5% auto 5% auto;
+    padding: 5%;
+    fill-opacity: .4;
 }
 
 .contactBackground {

@@ -15,7 +15,7 @@ const AboutUsPage = () => {
                 and desktops ) and are accessible to everyone.
             </p>
             <h3>Meet Amy</h3>
-            <p>Amy is the founder and chief developer at Perennial Solutions Online. 
+            <p>Amy is the owner and chief developer at Perennial Solutions Online. 
                 She spent many years growing roots in the landscaping industry. She 
                 knows what businesses in the green industry need. Amy has been learning 
                 and making websites for many years.

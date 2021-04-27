@@ -42,20 +42,39 @@
     margin-bottom: 10%;
 }
 
-.contactButton {
-    padding: .5em;
-    box-shadow: .5em #5B7553;
+.homepage-link {
+    padding: 1%;
+    background-color: #5B7553;
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+    margin: 10%;
+    box-shadow: #E4FDE1 2px;
+    border: #32472c 2px solid;
+    
+    
 }
 
-.contactButton:hover {
-    background-color: #5B7553;
-    color: #E4FDE1;
-    font-size: 1em;
+.homepage-link:hover {
+    background-color: #E4FDE1;
+    color: black;
     box-shadow: none;
 }
 
 @media screen and (max-width: 1074px){
    .bigText {
-       margin-top: 4%
-;   }
+       margin-top: 10%
+   }
 }
+
+@media screen and (max-width: 900px){
+    .bigText {
+        margin-top: 20%
+    }
+ }
+
+ @media screen and (max-width: 580px){
+    .bigText {
+        margin-top: 50%
+    }
+ }

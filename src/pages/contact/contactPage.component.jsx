@@ -9,6 +9,7 @@ const ContactPage = () => {
 
     function changeMessage () {
         setIsSubmitted(true);
+        console.log('sent')
     }
     return (
         <div>

@@ -10,13 +10,13 @@ const TopNav = () => {
         <div className = 'top-nav'>
             <Link to='/'><img className ='logoImg' alt='flower logo' src={logo} /></Link>
             <h1>Perennial Solutions Online</h1>
-                <MenuIcon />
-                <nav className='options'>
-                        <Link className='option' to='/'>home |</Link>
-                        <Link className='option' to='/portfolio'> portfolio |</Link>
-                        <Link className='option' to='/aboutus'> about us |</Link>
-                        <Link className='option' to='/contact'> contact</Link>
-                </nav>
+            <MenuIcon />
+            <nav className='options'>
+                    <Link className='option' to='/'>home |</Link>
+                    <Link className='option' to='/portfolio'> portfolio |</Link>
+                    <Link className='option' to='/aboutus'> about us |</Link>
+                    <Link className='option' to='/contact'> contact</Link>
+            </nav>
         </div>
     )
 };

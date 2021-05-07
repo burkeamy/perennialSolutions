@@ -37,7 +37,7 @@ const ContactPage = () => {
                        <label>Email address</label>
                        <input type="email" name="email"placeholder="Your email" className="enter-email"/>
                        <label>What kind of services are you looking for. If you have a website already, please include a link</label>
-                       <textarea name="message" placeholder="A brief message about what information you are looking for" className="enter-message"/>
+                       <textarea name="message" placeholder="A brief message about what you are intrested in" className="enter-message"/>
                        <br />
                        <input type="submit" value="Send" className="submit-button"/>
                      </form>

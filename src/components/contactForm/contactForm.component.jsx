@@ -2,10 +2,11 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import './contactForm.styles.css';
 
-const ContactForm = (changeMessage) => {
+const ContactForm = ({changeMessage}) => {
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    //e.preventDefault();
+    changeMessage();
     
 
       emailjs.sendForm('service_os18hzg', 'template_hulbr91', e.target, 'user_SVeso4VCm5a8LFlI5j2Tf')
@@ -19,7 +20,7 @@ const ContactForm = (changeMessage) => {
   return (
     <div >
       <h3>Please fill out this short form for additional information aboout our services</h3>
-      <form className="contact-form" onSubmit={sendEmail}>
+      <form className="contact-form" onSubmit={sendEmail(changeMessage)}>
         <label>Your name</label>
         <input type="text" name="name" placeholder="Your name" className="enter-name"/>
         <label>Email address</label>

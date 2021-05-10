@@ -1,5 +1,6 @@
 p, h2, h3, h4, label {
-  font-family: 'Lexend Giga', sans-serif;;
+  font-family: 'Lexend Giga', sans-serif;
+  padding-left: 1%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -11,7 +11,7 @@ const IntroBox = () => {
                 
                 <h2>Welcome to Perennial Solutions Online</h2>
                 <h4>plant seeds online and watch your business grow for years to come</h4>
-                <p>web sites and digital media specialy grown for the green industry</p>
+                <p className='intro-p'>web sites and digital media specialy grown for the green industry</p>
                 <Link className='homepage-link' to='/contact'> Learn More!</Link>
                
             </header>

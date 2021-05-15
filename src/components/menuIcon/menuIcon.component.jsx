@@ -18,7 +18,7 @@ const MenuIcon = () => {
 
     return (
         <div className='mobile-container'>
-            <button className="container" onClick={changeView}>
+            <button className="container" aria-label="mobile menu"onClick={changeView}>
                 <div className="bar1"></div>
                 <div className="bar2"></div>
                 <div className="bar3"></div>

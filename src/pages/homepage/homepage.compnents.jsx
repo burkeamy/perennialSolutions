@@ -9,7 +9,7 @@ const HomePage = () => (
         <IntroBox/>
         <article className='homepageContainer'>
             <h2>What is Perennial Solutions Online</h2>
-            <p>Perennial Solutions Online builds, updates, and redesigns websites. 
+            <p className='open-p'>Perennial Solutions Online builds, updates, and redesigns websites. 
                 We have a soft spot for folks in the green industry but will also 
                 help folks with brown thumbs grow businesses. At Perennial Solutions
                 Online, we love to build aesthetically pleasing websites that work 
@@ -37,7 +37,7 @@ const HomePage = () => (
                     </section>
                     <section className='center-item'>
                         <h4>Logo Design</h4>
-                        <p>Just a logo in what ever file format you need</p>
+                        <p>A logo created just for you</p>
                     </section>
                     <section className='right-item'>
                         <h4>Social Media</h4>

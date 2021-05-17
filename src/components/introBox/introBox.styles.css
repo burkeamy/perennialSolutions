@@ -1,6 +1,6 @@
  .parallax {
     /* The image used */
-    background-image: url('../../images/fallMums.png');
+    background-image: url('../../images/fallMumsbanner.png');
     filter: blur(2px);
     -webkit-filter: blur(2px);
     opacity: .8;

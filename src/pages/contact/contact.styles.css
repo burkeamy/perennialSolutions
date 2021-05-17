@@ -10,14 +10,6 @@
     fill-opacity: .4;
 }
 
-.contactBackground {
-    background-image: url('../../images/fallMums.png');
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
-    opacity: .8;
-    width: 100%;
-}
-
 .contact-form { 
     display: inline-block;
     width: auto;

@@ -14,6 +14,15 @@ const AboutUsPage = () => {
                 We make sites that are responsive ( they look great on phones, tablets, 
                 and desktops ) and are accessible to everyone.
             </p>
+            <p>Here is a brif list of some of the major technologies we are familiar with.</p>
+            <ul>
+                <li>WordPress</li>
+                <li>HTML and CSS</li>
+                <li>JavaScript and React</li>
+                <li>Squarespace</li>
+                <li>Adobe creative suite</li>
+                <li>...and more!</li>
+            </ul>
             <h3>Meet Amy</h3>
             <p>Amy is the owner and chief developer at Perennial Solutions Online. 
                 She spent many years growing roots in the landscaping industry. She 

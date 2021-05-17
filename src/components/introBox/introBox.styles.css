@@ -81,4 +81,8 @@
     .bigText {
         margin-top: 50%
     }
+
+    .parallax {
+        background-image: url('../../images/oneMum.png');
+    }
  }

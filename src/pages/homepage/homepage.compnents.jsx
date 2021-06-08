@@ -1,7 +1,7 @@
 import React from 'react';
 import IntroBox from '../../components/introBox/introBox.component';
 import './homepage.styles.css';
-
+import { Devices, Star, Style, ThumbUp, Web, Tablet } from '@material-ui/icons';
 
 
 const HomePage = () => (
@@ -20,27 +20,45 @@ const HomePage = () => (
             <h3>Services Offered</h3>
                 <div className='services-container'>
                     <section className='left-item'>
-                        <h4>Website Design</h4>
+                        <div className='card-intro'>
+                            <Web />
+                            <h4>Website Design</h4>
+                        </div>
                         <p>For those that don't have a website at all and need to start from scratch</p>
                     </section>
                     <section className='center-item'>
-                        <h4>Website Re-Design</h4>
+                        <div className='card-intro'>
+                            <Tablet/>
+                            <h4>Website Re-Design</h4>
+                        </div>
                         <p>For those that have a website, but it needs to be updated or improved</p>
                     </section>
                     <section className='right-item'>
-                        <h4>Responsive web-design</h4>
+                        <div className='card-intro'>
+                            <Devices />
+                            <h4>Responsive web-design</h4>
+                        </div>
                         <p>We will take an existing website and make it more responsive to screen size</p>
                     </section>
                     <section className='left-item'>
-                        <h4>Branding</h4>
+                        <div className='card-intro'>
+                            <Style/>
+                            <h4>Branding</h4>
+                        </div>
                         <p>In a nutshell, this inclues logos, color scheme, website, and so much more</p>
                     </section>
                     <section className='center-item'>
-                        <h4>Logo Design</h4>
+                        <div className='card-intro'>
+                            <Star/>
+                            <h4>Logo Design</h4>
+                        </div>
                         <p>A logo created just for you</p>
                     </section>
                     <section className='right-item'>
-                        <h4>Social Media</h4>
+                        <div className='card-intro'>
+                            <ThumbUp />
+                            <h4>Social Media</h4>
+                        </div>
                         <p>Need help with twitter, facebook, or instagram? We can do that</p>
                     </section>
                 </div>

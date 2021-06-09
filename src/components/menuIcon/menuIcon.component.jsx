@@ -5,13 +5,15 @@ import './menuIcon.styles.css';
 
 const MenuIcon = () => {
 
-    const [ menuHide, setMenuHide ] = useState('mobile-hidden');
+    const [ menuHide, setMenuHide ] = useState(false);
     
 
     const changeView = () => {
-        if (menuHide === 'mobile-hidden') {
+        setMenuHide(!menuHide)
+        if (menuHide === true) {
        setMenuHide('mobile-options')
-        } else {
+        } 
+        if (menuHide === false) {
             setMenuHide('mobile-hidden')
         }
     }
@@ -24,10 +26,10 @@ const MenuIcon = () => {
                 <div className="bar3"></div>
             </button>
             <nav className={ menuHide }>
-                <Link className='mobile-option' to='/'>home</Link>
-                <Link className='mobile-option' to='/portfolio'> portfolio</Link>
-                <Link className='mobile-option' to='/aboutus'> about</Link>
-                <Link className='mobile-option' to='/contact'> contact</Link>
+                <Link className='mobile-option' to='/'onClick={changeView}>home</Link>
+                <Link className='mobile-option' to='/portfolio'onClick={changeView}> portfolio</Link>
+                <Link className='mobile-option' to='/aboutus'onClick={changeView}> about</Link>
+                <Link className='mobile-option' to='/contact'onClick={changeView}> contact</Link>
             </nav>  
         </div>
     )

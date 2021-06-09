@@ -2,7 +2,7 @@
     background-color: #5B7553;
     height: 20%;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: .5fr 3fr 1fr 1fr;
     color: #E4FDE1;
     margin: -1%;
     padding: 3%;
@@ -10,7 +10,6 @@
 }
 
 .logoImg {
-    
     height: 100px;
     width: 100px;
     border-radius: 50%;

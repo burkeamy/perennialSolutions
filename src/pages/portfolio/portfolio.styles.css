@@ -1,0 +1,11 @@
+.screen-shot {
+    width: 30%;
+}
+
+.portfolio-section {
+    width: 80%;
+    margin: 10%;
+    padding: 5%;
+    border: 2px solid purple;
+    text-align: center;
+}

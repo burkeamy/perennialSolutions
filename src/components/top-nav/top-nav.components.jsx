@@ -9,7 +9,7 @@ const TopNav = () => {
     return (
         <div className = 'top-nav'>
             <Link to='/' aria-label='click to return to the homepage'> <Icon/></Link>
-            <h1>Perennial Solutions Online, LLC</h1>
+            <h1>Perennial Solutions Online</h1>
             <MenuIcon />
             <nav className='options'>
                     <Link className='option' to='/'>home |</Link>

@@ -6,16 +6,15 @@ import './menuIcon.styles.css';
 const MenuIcon = () => {
 
     const [ menuHide, setMenuHide ] = useState(false);
-    
-
-    const changeView = () => {
-        setMenuHide(!menuHide)
-        if (menuHide === true) {
-       setMenuHide('mobile-options')
-        } 
-        if (menuHide === false) {
-            setMenuHide('mobile-hidden')
-        }
+       
+        const changeView = () => {
+            setMenuHide(!menuHide)
+            if (menuHide === true) {
+        setMenuHide('mobile-options')
+            } 
+            if (menuHide === false) {
+                setMenuHide('mobile-hidden')
+            }
     }
 
     return (

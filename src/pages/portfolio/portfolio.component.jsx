@@ -7,11 +7,16 @@ const Portfolio = () => {
         <div>
             <h3>What are we working on now?</h3>
             <section className='portfolio-section'>
-                <img className='screen-shot'src= {AlyssasGarden } alt ='screenshot of current project' />
-                <p>Our current project is for a small landscaping company that is just starting. 
-                    This webiste is not complete yet, but feel free to check it out. 
+                <h4>Arbor Irrigation and Landscape</h4>
+                <p>This page is potentially for a re-brand of sorts
                 </p>
-                <a href='https://alyssasgardennc.com/' rel="noreferrer" target='_blank'>Check it out!</a>
+                <a href='https://arbor-irrigationand-landscape.vercel.app/' rel="noreferrer" target='_blank'>Check it out!</a>
+            </section>
+            <section>
+                <h4>Other projects</h4>
+                    <a href='https://alyssasgardennc.com/' rel="noreferrer" target='_blank'>
+                        <img className='screen-shot'src= {AlyssasGarden } alt ='screenshot of current project' />
+                    </a>
             </section>
         </div>
     )

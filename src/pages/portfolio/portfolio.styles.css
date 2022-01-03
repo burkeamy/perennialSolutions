@@ -1,11 +1,26 @@
 .screen-shot {
     width: 30%;
+    padding: 1rem;
 }
 
-.portfolio-section {
+.screen-shot:hover {
+    transform: scale(1.5);
+}
+
+.main-portfolio-section {
     width: 80%;
     margin: 10%;
     padding: 5%;
     border: 2px solid purple;
     text-align: center;
+}
+
+.other-projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.small-title {
+    text-align: center;
+    padding: 2rem;
 }

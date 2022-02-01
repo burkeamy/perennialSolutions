@@ -9,6 +9,7 @@ const MenuIcon = () => {
        
         const changeView = () => {
             setMenuHide(!menuHide)
+            console.log(menuHide)
             if (menuHide === true) {
         setMenuHide('mobile-options')
             } 
@@ -24,7 +25,7 @@ const MenuIcon = () => {
                 <div className="bar2"></div>
                 <div className="bar3"></div>
             </button>
-            <nav className={ menuHide }>
+            <nav className={ menuHide}>
                 <Link className='mobile-option' to='/'onClick={changeView}>home</Link>
                 <Link className='mobile-option' to='/portfolio'onClick={changeView}> portfolio</Link>
                 <Link className='mobile-option' to='/aboutus'onClick={changeView}> about</Link>

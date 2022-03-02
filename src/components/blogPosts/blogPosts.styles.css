@@ -1,0 +1,22 @@
+.blogPostsContainer {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.lighthouseTestimg {
+    margin: 2rem;
+    
+}
+
+.lighthouseTestimg:hover {
+    width: 450px;
+}
+
+.side-space {
+    background-color: aquamarine;
+}
+.blogPostsContainer h2 {
+    margin-top: 2rem;
+    text-align: center;
+}

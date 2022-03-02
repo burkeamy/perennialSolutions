@@ -5,6 +5,7 @@ import HomePage from './pages/homepage/homepage.compnents';
 import ContactPage from './pages/contact/contactPage.component';
 import AboutUsPage from './pages/about-us/about-us.component';
 import Portfolio from './pages/portfolio/portfolio.component';
+import Blog from './pages/blog/blogHome';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/contact' component={ ContactPage }/>
         <Route exact path='/aboutus' component={ AboutUsPage }/>
         <Route exact path='/portfolio' component={ Portfolio }/>
+        <Route exact path='/blog' component={ Blog }/>
       </Switch>
       <Footer />
     </div>

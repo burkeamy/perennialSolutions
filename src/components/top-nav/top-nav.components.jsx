@@ -15,7 +15,8 @@ const TopNav = () => {
                     <Link className='option' to='/'>home |</Link>
                     <Link className='option' to='/portfolio'> portfolio |</Link>
                     <Link className='option' to='/aboutus'> about us |</Link>
-                    <Link className='option' to='/contact'> contact</Link>
+                    <Link className='option' to='/contact'> contact |</Link>
+                    <Link className='option' to='/blog'> blog</Link>
             </nav>
         </div>
     )

@@ -1,19 +1,15 @@
 import React from 'react';
-import './blogPosts.styles.css';
+import './blog.styles.css';
 
-
-
-const blogPosts = () => {
+const LighthouseTest = () => {
   return (
     <div class= 'blogPostsContainer'>
         <div classname="side-space"></div>
         <div classname="main-blog-area">
             <h2>How and why to use Google Lighthouse Test</h2>
             <p>Fist thing, what is Google Lighthouse test anyway? It is a free test for any website 
-                that will quickly give you a score for things like performance, best practices, SEO, and accessibility. Click here for directions on how to use it.
+                that will quickly give you a score for things like performance, best practices, SEO, and accessibility.
             </p>
-          
-            Click here for directions on how to use it.
             <p>Why should you use this test? It is an easy way to see where your website stands. Each score has a breakdown of 
                 things that don’t score well. This could be used as a starting point if you don’t know what to fix on a website. 
             </p>
@@ -41,4 +37,4 @@ const blogPosts = () => {
   )
 }
 
-export default blogPosts
+export default LighthouseTest

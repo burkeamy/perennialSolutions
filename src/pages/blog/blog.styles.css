@@ -40,3 +40,7 @@
     text-align: left;
     float: left;
 }
+.blog-container {
+    border-bottom: 1.5px solid darkgreen;
+    padding-bottom: 2rem;
+   }

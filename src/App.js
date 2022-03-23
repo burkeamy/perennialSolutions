@@ -8,6 +8,8 @@ import Portfolio from './pages/portfolio/portfolio.component';
 import Blog from './pages/blog/blogHome';
 import LighthouseTest from './pages/blog/lighthouseTest';
 import KeywordPlan from './pages/blog/keywordPlan';
+import ImgAltText from './pages/blog/img-alt-text';
+import WebSecurityLevelOne from './pages/blog/addresbar';
 
 import './App.css';
 
@@ -27,6 +29,8 @@ function App() {
         <Route exact path='/blog' component={ Blog }/>
         <Route exact path='/lighthouse-test' component={ LighthouseTest }/>
         <Route exact path='/keyword-plan' component={ KeywordPlan }/>
+        <Route exact path='/img-alt-text' component={ ImgAltText }/>
+        <Route exact path='/web-security-level-one' component={ WebSecurityLevelOne}/>
       </Switch>
       <Footer />
     </div>

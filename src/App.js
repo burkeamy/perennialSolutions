@@ -10,6 +10,7 @@ import LighthouseTest from './pages/blog/lighthouseTest';
 import KeywordPlan from './pages/blog/keywordPlan';
 import ImgAltText from './pages/blog/img-alt-text';
 import WebSecurityLevelOne from './pages/blog/addresbar';
+import KeywordPlacement from './pages/blog/keywordPlacement';
 
 import './App.css';
 
@@ -31,6 +32,7 @@ function App() {
         <Route exact path='/keyword-plan' component={ KeywordPlan }/>
         <Route exact path='/img-alt-text' component={ ImgAltText }/>
         <Route exact path='/web-security-level-one' component={ WebSecurityLevelOne}/>
+        <Route exact path='/keyword-placement' component={ KeywordPlacement }/>
       </Switch>
       <Footer />
     </div>

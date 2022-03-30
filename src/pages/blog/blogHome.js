@@ -9,6 +9,13 @@ const Blog = () => {
             <h2 className="webTW">Web Tip Wednesday</h2>
             <p>seed size tips to help your website grow</p>
             <section className='blog-container'>
+                <h3>Where to put those fantastic keywords</h3>
+                <p>So you did some research and found some great keywords. Now you want to use these on your website to improve your search rankings. 
+                    Where are the best places to use them?
+                </p>
+                <Link className='blog-option' to='/keyword-placement'> More on keyword placement</Link>
+            </section>
+            <section className='blog-container'>
                 <h3>Is your website secure?</h3>
                 <p>This question can be very complicated. The first level of security can be found in the address bar. Visit your website and take a look.</p>
                 <Link className='blog-option' to='/web-security-level-one'> More on image addres bar security</Link>
